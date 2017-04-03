@@ -171,7 +171,7 @@
 			; Resources
 			MinNumItems=2,MaxNumItems=4,NumItemsPower=1.0,SetWeight=0.19,bItemsRandomWithoutReplacement=true,ItemEntries=(
 				(
-					EntryWeight=0.17,
+					EntryWeight=0.23,
 					ItemClassStrings=(,"PrimalItemResource_Wood_C","PrimalItemResource_Thatch_C"),
 					ItemsWeights=(0.4,0.6),
 					MinQuantity=15.0,MaxQuantity=45.0,
@@ -179,7 +179,7 @@
 					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
 				),
 				(
-					EntryWeight=0.17,
+					EntryWeight=0.23,
 					ItemClassStrings=("PrimalItemResource_Stone_C","PrimalItemResource_Flint_C"),
 					ItemsWeights=(0.4,0.6),
 					MinQuantity=15.0,MaxQuantity=48.0,
@@ -187,7 +187,7 @@
 					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
 				),
 				(
-					EntryWeight=0.17,
+					EntryWeight=0.23,
 					ItemClassStrings=("PrimalItemResource_Fibers_C"),
 					ItemsWeights=(1.0),
 					MinQuantity=18.0,MaxQuantity=42.0,
@@ -195,42 +195,18 @@
 					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
 				),
 				(
-					EntryWeight=0.17,
+					EntryWeight=0.23,
 					ItemClassStrings=("PrimalItemResource_Chitin_C","PrimalItemResource_Hide_C"),
-					ItemsWeights=(0.7,0.3),
+					ItemsWeights=(0.3,0.7),
 					MinQuantity=5.0,MaxQuantity=10.0,
 					MinQuality=1.0,MaxQuality=1.0,
 					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
 				),
 				(
 					EntryWeight=0.08,
-					ItemClassStrings=("PrimalItemResource_Crystal_C","PrimalItemResource_Metal_C"),
+					ItemClassStrings=("PrimalItemResource_Crystal_C"),
 					ItemsWeights=(0.2,0.8),
-					MinQuantity=4.0,MaxQuantity=18.0,
-					MinQuality=1.0,MaxQuality=1.0,
-					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
-				),
-				(
-					EntryWeight=0.08,
-					ItemClassStrings=("PrimalItemResource_Pelt_C"),
-					ItemsWeights=(1.0),
-					MinQuantity=5.0,MaxQuantity=18.0,
-					MinQuality=1.0,MaxQuality=1.0,
-					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
-				),
-				(
-					EntryWeight=0.08,
-					ItemClassStrings=("PrimalItemResource_Oil_C","PrimalItemResource_Silicon_C"),
-					ItemsWeights=(0.5,0.5),
-					MinQuantity=5.0,MaxQuantity=17.0,
-					MinQuality=1.0,MaxQuality=1.0,
-					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
-				),
-				(
-					EntryWeight=0.08,
-					ItemClassStrings=("PrimalItemResource_Obsidian_C"),
-					ItemsWeights=(1.0),
-					MinQuantity=4.0,MaxQuantity=12.0,
+					MinQuantity=1.0,MaxQuantity=4.0,
 					MinQuality=1.0,MaxQuality=1.0,
 					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
 				)
