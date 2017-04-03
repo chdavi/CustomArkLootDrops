@@ -47,17 +47,7 @@ ToDo
 	    - [ ] Add Tapejara Egg - spawn code: PrimalItemConsumable_Egg_Tapejara_C
 	    - [ ] Add Moschops Egg - spawn code: PrimalItemConsumable_Egg_Moschops_C
 	    - [ ] Add Beer Jar - spawn code: PrimalItemConsumable_BeerJar_C
-	    - [x] Add Element Resource system - raw elements added in red chart
-		- [ ] Add Tek Replicator - all tek moving into red at super rare rate
-		- [ ] Add Tek Rifle
-		- [ ] Add Tek Helmet
-		- [ ] Add Tek Visor
-		- [ ] Add Tek Jetpack
-		- [ ] Add Tek Boots
-		- [ ] Add Tek Gloves
-		- [ ] Add Tek Rex Saddle
-		- [ ] Add Tek Transmitter
-		- [ ] Add New Dino Items: Ovis Aries!
+	   	- [ ] Add New Dino Items: Ovis Aries!
 		- [ ] Add New Dino Items: Purlovia!
 		- [ ] Add Scissors - blue
 		- [ ] Add lvl 50 Thylacoleo Saddle - PrimalItemArmor_ThylacoSaddle_C
