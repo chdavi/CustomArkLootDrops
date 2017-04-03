@@ -6,6 +6,8 @@
 ; #5 - Bows too common. Need to tweak the bow section. Should probably package it up with arrows
 ; #6 - Resources need a bit of tweaking. We don't need obsidian or perls yet so should remove them. 
 ; #7 - Need to add stimulant to the resource section
+; #8 - Add in the SetName="Name" property to all the sets
+; #9 - Add in the ItemEntryName="" propert to all the item entries
 ;
 ; Green Beacon
 	ItemSets=(
