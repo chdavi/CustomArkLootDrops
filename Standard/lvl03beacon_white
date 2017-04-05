@@ -1,4 +1,6 @@
 ; White Beacon
+; TODO: Add flags to the drops
+; TODO: Move the paintset to this drop
 	ItemSets=(
 		( 
 			SetName="Campsite",MinNumItems=2,MaxNumItems=4,NumItemsPower=1.0,SetWeight=0.16,bItemsRandomWithoutReplacement=true,ItemEntries=(
