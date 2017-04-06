@@ -1,6 +1,4 @@
 ; White Beacon
-; TODO: Add flags to the drops
-; TODO: Move the paintset to this drop
 	ItemSets=(
 		( 
 			SetName="Campsite",MinNumItems=2,MaxNumItems=4,NumItemsPower=1.0,SetWeight=0.16,bItemsRandomWithoutReplacement=true,ItemEntries=(
@@ -380,6 +378,55 @@
 					ItemClassStrings=("PrimalItemStructure_FeedingTrough_C", "PrimalItemConsumable_TheHorn_C"),
 					ItemsWeights=(0.90,0.10),
 					MinQuantity=1.0,MaxQuantity=1.0,
+					MinQuality=1.0,MaxQuality=1.0,
+					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
+				)
+			)
+		),
+		(
+			SetName="Paint Set",MinNumItems=5,MaxNumItems=5,NumItemsPower=1.0,SetWeight=0.11,bItemsRandomWithoutReplacement=true,ItemEntries=(
+				(
+					ItemEntryName="Dyes",
+					EntryWeight=1.0,
+					ItemClassStrings=("PrimalItemDye_Red_C","PrimalItemDye_Green_C","PrimalItemDye_Blue_C","PrimalItemDye_Yellow_C","PrimalItemDye_Purple_C","PrimalItemDye_Orange_C","PrimalItemDye_Black_C","PrimalItemDye_White_C","PrimalItemDye_Brown_C","PrimalItemDye_Cyan_C","PrimalItemDye_Forest_C","PrimalItemDye_Parchment_C","PrimalItemDye_Pink_C","PrimalItemDye_Royalty_C","PrimalItemDye_Silver_C","PrimalItemDye_Sky_C","PrimalItemDye_Tan_C","PrimalItemDye_Tangerine_C","PrimalItemDye_ActuallyMagenta_C","PrimalItemDye_Brick_C","PrimalItemDye_Cantaloupe_C","PrimalItemDye_Mud_C","PrimalItemDye_Navy_C","PrimalItemDye_Olive_C","PrimalItemDye_Slate_C"),
+					ItemsWeights=(0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04),
+					MinQuantity=1.0,MaxQuantity=10.0,
+					MinQuality=1.0,MaxQuality=1.0,
+					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
+				),
+				(
+					ItemEntryName="Paint Brush",
+					EntryWeight=1.0,
+					ItemClassStrings=("PrimalItem_WeaponPaintbrush_C"),
+					ItemsWeights=(1.0),
+					MinQuantity=0.0,MaxQuantity=1.0,
+					MinQuality=1.0,MaxQuality=1.0,
+					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
+				),
+				(
+					ItemEntryName="Paint Canvas",
+					EntryWeight=1.0,
+					ItemClassStrings=("PrimalItemStructure_PaintingCanvas_C"),
+					ItemsWeights=(1.0),
+					MinQuantity=0.0,MaxQuantity=1.0,
+					MinQuality=1.0,MaxQuality=1.0,
+					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
+				),
+				(
+					ItemEntryName="Single Panel Flag",
+					EntryWeight=1.0,
+					ItemClassStrings=("PrimalItemStructure_Flag_Single_C"),
+					ItemsWeights=(1.0),
+					MinQuantity=0.0,MaxQuantity=3.0,
+					MinQuality=1.0,MaxQuality=1.0,
+					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
+				),
+				(
+					ItemEntryName="Multi Panel Flag",
+					EntryWeight=1.0,
+					ItemClassStrings=("PrimalItemStructure_Flag_C"),
+					ItemsWeights=(1.0),
+					MinQuantity=0.0,MaxQuantity=3.0,
 					MinQuality=1.0,MaxQuality=1.0,
 					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
 				)

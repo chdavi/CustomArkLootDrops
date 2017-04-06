@@ -1,11 +1,7 @@
 ; Bugs!
-
-; #2 - Too much dye! Need to break it out into its own item set with smaller subsets
 ; #3 - Eggs are really rare. Should probably be a little more common
 ; #4 - Boxes, cooking pots and other furniture is too rare. Should repackage into a "set" of items a little better 
-; #8 - Add in the SetName="Name" property to all the sets
-; #9 - Add in the ItemEntryName="" propert to all the item entries
-;
+
 ; Green Beacon
 	ItemSets=(
 		( 			
@@ -552,16 +548,6 @@
 		( 			
 			SetName="Furniture",MinNumItems=1,MaxNumItems=1,NumItemsPower=1.0,SetWeight=1.0,bItemsRandomWithoutReplacement=true,ItemEntries=(
 				(
-					; TODO: Move to painting set in white drop.
-					ItemEntryName="Dyes",
-					EntryWeight=1.0,
-					ItemClassStrings=("PrimalItemDye_Red_C","PrimalItemDye_Green_C","PrimalItemDye_Blue_C","PrimalItemDye_Yellow_C","PrimalItemDye_Purple_C","PrimalItemDye_Orange_C","PrimalItemDye_Black_C","PrimalItemDye_White_C","PrimalItemDye_Brown_C","PrimalItemDye_Cyan_C","PrimalItemDye_Forest_C","PrimalItemDye_Parchment_C","PrimalItemDye_Pink_C","PrimalItemDye_Royalty_C","PrimalItemDye_Silver_C","PrimalItemDye_Sky_C","PrimalItemDye_Tan_C","PrimalItemDye_Tangerine_C","PrimalItemDye_ActuallyMagenta_C","PrimalItemDye_Brick_C","PrimalItemDye_Cantaloupe_C","PrimalItemDye_Mud_C","PrimalItemDye_Navy_C","PrimalItemDye_Olive_C","PrimalItemDye_Slate_C"),
-					ItemsWeights=(0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.04),
-					MinQuantity=6.0,MaxQuantity=13.0,
-					MinQuality=1.0,MaxQuality=1.0,
-					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
-				),
-				(
 					ItemEntryName="Cooking Pot",
 					EntryWeight=1.0,
 					ItemClassStrings=("PrimalItemStructure_CookingPot_C"),
@@ -574,16 +560,6 @@
 					ItemEntryName="Mortar and Pestle",
 					EntryWeight=1.0,
 					ItemClassStrings=("PrimalItemStructure_MortarAndPestle_C"),
-					ItemsWeights=(1.0),
-					MinQuantity=0.0,MaxQuantity=1.0,
-					MinQuality=1.0,MaxQuality=1.0,
-					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0
-				),
-				(
-					; TODO: Could break this out into a "Painting Set" with the canvas
-					ItemEntryName="Paint Brush",
-					EntryWeight=1.0,
-					ItemClassStrings=("PrimalItem_WeaponPaintbrush_C"),
 					ItemsWeights=(1.0),
 					MinQuantity=0.0,MaxQuantity=1.0,
 					MinQuality=1.0,MaxQuality=1.0,
@@ -606,28 +582,20 @@
 					MinQuantity=0.0,MaxQuantity=1.0,
 					MinQuality=1.0,MaxQuality=1.0,
 					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.25
-				),
+				)
+				;,
 
 				; ==================================================================
 				; TODO: Add these items into the furniture list
 				; ==================================================================
-				(
-					EntryWeight=1.0,
-					ItemClassStrings=("PrimalItemStructure_StorageBox_Large_C","PrimalItemStructure_Forge_C","PrimalItemStructure_AnvilBench_C","PrimalItemStructure_MortarAndPestle_C","PrimalItemStructure_CookingPot_C","PrimalItemStructure_Furniture_WoodTable_C","PrimalItemRaft_C","PrimalItemStructure_Furniture_Gravestone_C","PrimalItemStructure_Furniture_WoodBench_C"),
-					ItemsWeights=(0.12,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11),
-					MinQuantity=1.0,MaxQuantity=1.0,
-					MinQuality=1.0,MaxQuality=1.0,
-					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.80
-				),
-				(
-					; TODO: Probably a good idea to make a rare Small Pen drop that contains Dino Gate, Fence foundations and a 1 story wall.
-					EntryWeight=1.0,
-					ItemClassStrings=("PrimalItemStructure_WoodGateframe_C","PrimalItemStructure_WoodGate_C","PrimalItemStructure_WoodSpikeWall_C"),
-					ItemsWeights=(0.4,0.4,0.2),
-					MinQuantity=1.0,MaxQuantity=1.0,
-					MinQuality=1.0,MaxQuality=1.0,
-					bForceBlueprint=false,ChanceToBeBlueprintOverride=0.80
-				)
+				;(
+				;	EntryWeight=1.0,
+				;	ItemClassStrings=("PrimalItemStructure_Forge_C","PrimalItemStructure_AnvilBench_C","PrimalItemStructure_Furniture_WoodTable_C","PrimalItemRaft_C","PrimalItemStructure_Furniture_Gravestone_C","PrimalItemStructure_Furniture_WoodBench_C"),
+				;	ItemsWeights=(0.12,0.11,0.11,0.11,0.11,0.11,0.11,0.11,0.11),
+				;	MinQuantity=1.0,MaxQuantity=1.0,
+				;	MinQuality=1.0,MaxQuality=1.0,
+				;	bForceBlueprint=false,ChanceToBeBlueprintOverride=0.80
+				;)
 			)
 		),
 		( 			
